@@ -1,0 +1,30 @@
+body {
+background-color: silver;
+}
+table {
+background-color: rgb(214, 0, 0);
+width: 1000px;
+margin: auto;
+}
+caption {
+background-color: blue;
+padding: 20px;
+font-size: 50px;
+background-image: url(bilder/360_F_224319891_fyK2MdKZIaKcG9YZHHs6CdGisjw4Faul.jpg);
+color: aliceblue;
+}
+tr {
+
+}
+th {
+padding: 15px;
+font-size: 26px;
+}
+td {
+background-color: rgb(68, 68, 68);
+padding: 10px;
+color: azure;
+}
+img {
+    width: 150px;
+}

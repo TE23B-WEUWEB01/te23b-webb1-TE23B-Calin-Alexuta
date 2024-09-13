@@ -1,0 +1,27 @@
+body {
+background-image: url(bilder/Untitled\ design\ \(3\).png);
+background-size: cover;
+}
+h1 {
+        font-family: "Staatliches", system-ui;
+        font-size: 80px;
+        color: #bababa;
+        margin-top: 60px;
+}
+h2 {
+    font-family: "Staatliches", system-ui;
+    font-size: 40px;
+    color: #bababa;
+    margin-top: 10px;
+}
+p {
+    font-family: "Staatliches", system-ui;
+}
+a {
+    background-color: #ff0000;
+    padding: 20px;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    font-size: 50px;
+    margin-left: 400px;;
+}

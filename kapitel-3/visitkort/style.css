@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+body {
+    background-color: gray;
+
+}
+div {
+    background-image: url(bilder/mclaren\ f1\ lm\ ai.webp);
+    width: 600px;
+    height: 400px;
+    background-position: 0 -80px;
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+h1 {
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 40px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+h2 {
+    font-family: "Ramabhadra", sans-serif;
+    margin-left: -20px;
+    margin-top: -15px;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    margin-left: -20px;
+}

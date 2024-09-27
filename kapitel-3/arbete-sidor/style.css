@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url(bilder/371955_918525_norio_koike_detroit_grand_prix_06jun_1988__1_-1.jpg);
+    background-size: cover;
+}
+body.Shobolan {
+    background-image: url(bilder/fruits-6845254_640.jpg);
+    background-size: cover;
+}
+div {
+   background-color: chartreuse;
+   width: 500px;
+   border: 5px dashed #555;
+   margin: auto;
+   margin-top: 20px;
+   padding: 30px;
+}
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+p {
+    font-family: "Bebas Neue", sans-serif;
+}
+a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}

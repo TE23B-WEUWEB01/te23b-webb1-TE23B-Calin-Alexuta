@@ -14,17 +14,22 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Layouten */
 body {
-    background-color: #9264c7;
+    background-image: url(bilder/360_F_129820472_ag5Hs4J3xH4WsqybNxCGHTybUf5GAYdb.jpg);
 }
 .kontainer {
     font-family: "Roboto", sans-serif;
     width: 800px;
     margin: auto;
     padding: 40px;
-    background-color: #e3dbf1;
+    background-color: orange
 }
 .box {
     background-color: #5a5a5a;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* Rubrikerna */
@@ -39,14 +44,20 @@ h2 {
 
 /* Sidans innehåll */
 img {
-    width: 100%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
 }
 p {
-
+ color: white;
 }
 .courtesy {
 
 }
 a {
 
+}
+.kolumner {
+    display: flex;
+    gap: 20px;
 }

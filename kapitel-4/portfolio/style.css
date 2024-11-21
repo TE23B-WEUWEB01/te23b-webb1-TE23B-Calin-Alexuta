@@ -5,7 +5,7 @@ body {
 }
 .kontainer {
     width: 90%;
-    max-width: 1200px;
+    max-width: 500px;
     margin: auto;
     padding: 20px;
     background-color: #ff0000;
@@ -17,21 +17,43 @@ img {
     display: block;
     margin: auto;
 }
-table, th, td {
-    border: 10px solid #ff0000;
-    border-collapse: collapse;
-    padding: 100px;
-    text-align: left;
-    margin: auto;
-    color: aliceblue;;
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px
 }
+
 .box {
     margin-left: 500px;
     color: #f9f9f9;
 }
 p {
     color: aliceblue;
+    padding: auto;
 }
 h1 {
    text-align: center;
+}
+h2 {
+    color: #ffffff;
+    padding: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+section img {
+    margin: 20px;
+}
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
 }

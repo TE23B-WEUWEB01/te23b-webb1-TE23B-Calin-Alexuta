@@ -27,13 +27,13 @@ ul {
     list-style-type: none;
     padding: 0 20px;
 }
-li {
+.container li {
 
 }
-a {
+.container ul a {
     text-decoration: none;
-    color: blue;
-    background-color: transparent;
+    color: black;
+    background-color: red;
     padding: 10px;
     border-radius: 3px;
     width: 140px;
@@ -41,24 +41,37 @@ a {
     box-shadow: 3px gray;
     text-align: center;
 }
+.container ul a:hover {
+    background-color: #ff6600;
+}
+.container il .aktiv {
+    background-color: green;
+}
 
-h1 {
+.container h1 {
     font-family: sans-serif;
     font-size: 80px;
     text-transform: uppercase;
 }
-p {
-
+.container p {
+margin: auto 20px;
 }
-.tack {
-
+.container .tack {
+font-style: italic;
 }
-figure {
-
+.container .tack a {
+text-decoration: none;
+color: gold;
 }
-img {
-
+.container figure {
+width: 60%;
+background-color: #fff;
+padding: 20px 20px 20px 20px;
+margin: 20px auto;
 }
-figcaption {
+.container img {
+ width: 100%;
+}
+.container figure figcaption {
 
 }

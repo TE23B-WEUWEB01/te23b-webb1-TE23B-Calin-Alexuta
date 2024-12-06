@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 10px;
+}
+li {
+    padding: 20px;
+}
+
+ul a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+img {
+    width: 560px;
+    height: 800px;
+}

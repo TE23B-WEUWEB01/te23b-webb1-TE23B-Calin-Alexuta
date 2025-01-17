@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -10,50 +11,82 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
-/* 
-burgare bg-färg #F5EBDC
-textafärg = #502314
-knappfärg = #CC2200
-typsnitt =  font-family: "Modak", serif;
+
+/* Bg-färg = #fbf7f1 
+burgare bg-färg = #f5ebdc
+textfärg = #502314
+knappfärg = #cc2200
+Typsnitt = 
+ font-family: "Modak", serif;
   font-weight: 400;
   font-style: normal;
 */
-body {
 
+/* Sidlayout */
+body {
+    background-color: #fbf7f1;
 }
 .kontainer {
-
+    width: 1200px;
+    margin: auto;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Sidhuvud */
 .sidhuvud {
-
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
 }
 .sidhuvud .meny {
-
+    padding: 10px;
 }
 .sidhuvud .meny a {
-
+    text-decoration: none;
+    color: #502314;
+    padding: 10px;
 }
 .sidhuvud .erbjudande {
-
+    text-decoration: none;
+    color: #cc2200;
+    border: 2px solid #cc2200;
+    border-radius: 5px;
+    padding: 10px;
 }
-/* innehåll */
-.innehåll {
 
+/* Sidinnehåll */
+.innehall {}
+.innehall h2 {
+    font-weight: 400;
+    font-size: 50px;
 }
-.innehåll h2 {
-
+.innehall .kolumner-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
-.innehåll .kolumner-3 {
-
+.innehall .kolumner-3 .burgare {
+    background-color: #f5ebdc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    height: 150px;
+    transition-duration: 500ms;
+    cursor: pointer;
 }
-.innehåll .kolumner-3 .burgare {
-
+.innehall .kolumner-3 .burgare:hover {
+    transition-duration: 500ms;
+    height: 500px;
 }
-.innehåll .kolumner-3 .burgare img {
-
+.innehall .kolumner-3 .burgare img {
+    width: 100%;
 }
-.innehåll .kolumner-3 .burgare p {
-    
+.innehall .kolumner-3 .burgare img.fix {
+    margin-bottom: 70px;
+}
+.innehall .kolumner-3 .burgare p {
+    font-size: 25px;
 }

@@ -20,20 +20,24 @@ body {
 
 /* Meny */
 .meny {
-    margin-left: 320px;
+    margin-left: 250px;
     align-items: center;
     padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 .meny nav {
     display: flex;
     gap: 20px;
 }
 .meny a {
-    color: #333;
+    color: #ffffff;
     font-size: 18px;
+    text-decoration: none;
 }
 .meny img {
     height: 50px;
+    margin-top: -15px;
 }
 
 /* Produkter */
@@ -43,12 +47,23 @@ body {
     background-color: #fff;
     margin-left: 130px;
     width: 1000px;
+    font-family: 'Roboto', sans-serif;
 }
 .produkt {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 .produkt img {
     width: 100%;
     height: auto;
+}
+.text {
+    background-color: #fff;
+    margin-left: 130px;
+    width: 1000px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.text p {
+    padding: 30px;
 }

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -7,33 +8,64 @@ html {
     box-sizing: inherit;
 }
 body, h1, h2, h3, h4, h5, h6, p, ul {
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 }
 img {
-width: 100%;
+    width: 100%;
 }
 
 /* Sidan */
 body {
-    background-image: url(bilder/tobias-schulz-3J8xcnCM1ak-unsplash.jpg);
+    background-image: url(./bilder/tobias-schulz-3J8xcnCM1ak-unsplash.jpg);
 }
 .kontainer {
-    width: 1000px;
-    margin: auto;
-    padding: 20px;
 }
 
 /* Bygga layouten */
-.kontainer {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-    "sidhuvud sidhuvud"
-    "artiklarna sidebar"
-    "sidfot sidfot";
-    gap: 20px;
+/* För mobil < 576px  */
+@media (min-width: 576px) {
+    .kontainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "sidhuvud "
+        "artiklarna"
+        "sidebar"
+        "sidfot ";
+        gap: 20px;
+    }
 }
+/* För läsplatta < 768px  */
+@media (min-width: 768px) {
+    .kontainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "artiklarna sidebar"
+        "sidfot sidfot";
+        gap: 20px;
+    }
+}
+/* För desktop >= 1200px */
+@media (min-width: 1200px) {
+    .kontainer {
+        width: 1200px;
+        margin: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "artiklarna sidebar"
+        "sidfot sidfot";
+        gap: 20px;
+    }
+}
+
 header {
     grid-area: sidhuvud;
 }
@@ -68,21 +100,24 @@ header h2 {}
 
 /* Menyn */
 header nav {
-    background: rgb(20,194,0);
-    background: linear-gradient(0deg, rgba(20,194,0,1) 0%, rgba(0,146,41,1) 57%, rgba(0,255,98,1) 100%);
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
+    background: rgb(142,199,1);
+    background: linear-gradient(0deg, rgba(142,199,1,1) 0%, rgba(44,129,14,1) 42%, rgba(11,106,18,1) 60%, rgba(112,201,0,1) 100%);
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
 header nav a {
     color: #FFF;
     text-decoration: none;
     padding: 20px 10px;
 }
-header nav a.aktiv {}
+header nav a.aktiv {
+    background: rgb(128,180,1);
+    background: linear-gradient(0deg, rgba(128,180,1,1) 0%, rgba(116,207,84,1) 42%, rgba(92,204,100,1) 60%, rgba(97,173,1,1) 100%);
+} 
 header nav a:hover {
-    background: rgb(0,255,102);
-    background: linear-gradient(0deg, rgba(0,255,102,0.8773634453781513) 0%, rgba(0,230,45,1) 51%, rgba(0,255,98,0.874562324929972) 100%);
+    background: rgb(128,180,1);
+    background: linear-gradient(0deg, rgba(128,180,1,1) 0%, rgba(116,207,84,1) 42%, rgba(92,204,100,1) 60%, rgba(97,173,1,1) 100%);
 }
 
 /* Sidans innehåll - artiklar, text mm */
@@ -97,7 +132,7 @@ main article figure {
     margin-bottom: 20px;
 }
 main article figure img {}
-main article figure figcaption{}
+main article figure figcaption {}
 main article p {}
 
 /* Sidobar */

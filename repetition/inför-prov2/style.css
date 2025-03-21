@@ -1,0 +1,46 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+        margin: 0;
+        padding: 0;
+}
+img {
+width: 100%;
+}
+
+
+body {}
+.kontainer {
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: #ff0000;
+}
+
+
+.kontainer header {}
+.kontainer header h1 {}
+.kontainer header nav {}
+.kontainer header nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #00ff2f;
+    padding: 10px;
+}
+.kontainer header nav a:hover {
+    background-color: #2600ff;
+}
+.kontainer header nav a.aktiv {background: #c300ff;}
+
+
+.kontainer main {}
+.kontainer main h2 {}
+.kontainer main p {}
+
+.kontainer footer {}
+.kontainer footer p {}

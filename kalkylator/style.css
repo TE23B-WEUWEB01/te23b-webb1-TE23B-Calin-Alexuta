@@ -1,0 +1,13 @@
+.konatiner {
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    background: black;
+}
+.kolumn-2 {
+    width: 300px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
